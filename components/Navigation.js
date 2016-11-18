@@ -4,16 +4,13 @@ import Link from 'next/link';
 const routes = [
     {link: '/index', title: 'Home'},
     {link: '/speakers', title: 'Speakers'},
-    {link: '/talks', title: 'Talks'},
+    {link: '/venue', title: 'Venue'},
     {link: '/tickets', title: 'Tickets'},
     {link: 'http://blog.agent.sh', title: 'Blog', target: '_blank'},
 ]
 
 
 export default class extends React.Component {
-
-
-    //<Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
     render() {
 
         let items = routes.map((route, idx) => {
