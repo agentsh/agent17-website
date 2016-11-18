@@ -31,11 +31,11 @@ export default class extends React.Component {
                     <div id='mc_embed_signup'>
                         <form action='//agent.us14.list-manage.com/subscribe/post?u=f761e3205081ca3832180ad93&amp;id=b3e4e5cec0'
                               method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' className='validate'
-                              target='_blank' novalidate>
+                              target='_blank' noValidate>
                             <div id='mc_embed_signup_scroll'>
 
                                 <div className='mc-field-group'>
-                                    <input type='email' value={this.state.email}
+                                    <input type='email'
                                            onChange={(event) => this.setState({email: event.target.source})}
                                            name='EMAIL' className='required email' id='mce-EMAIL'/>
                                     <input type='submit' value='Get notified' name='subscribe' id='mc-embedded-subscribe'
@@ -49,7 +49,7 @@ export default class extends React.Component {
                                     <div className='response' id='mce-success-response' style={{display: 'none'}}></div>
                                 </div>
                                 <div style={{position: 'absolute', left: -5000, ariaHidden: 'true'}}>
-                                    <input type='text' name='b_f761e3205081ca3832180ad93_b3e4e5cec0' tabindex='-1' value=''/>
+                                    <input type='text' name='b_f761e3205081ca3832180ad93_b3e4e5cec0' tabIndex='-1'/>
                                 </div>
                             </div>
                         </form>

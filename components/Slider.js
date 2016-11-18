@@ -9,14 +9,14 @@ const slides = [
         title: 'MEET WORLD CLASS ENGINEERS',
         text: <span>Agent Conf is about JavaScript and Software Engineering  <br/>20th & 21st January in Dornbirn, Austria</span>,
         button: 'secure tickets',
-        link: '#tickets'
+        link: '/tickets'
     },
     {
         img: '/static/img/hero_1.jpg',
         title: 'FROM FACEBOOK TO EXPONENT',
         text: 'from vancouver to berlin',
         button: 'meet the speakers',
-        link: '#speakers',
+        link: '/speakers',
         overlay: true
     },
     {
@@ -24,7 +24,7 @@ const slides = [
         title: 'WHERE IS DORNBIRN',
         text: '',
         button: 'get to know the location',
-        link: '#tickets',
+        link: '/venue',
         overlay: true
     },
 ];
@@ -48,9 +48,11 @@ export default () => {
                     }}/>
 
                     <div className="block__more  block--hero__more" style={{textAlign: 'center'}}>
-                        <a href={slide.link} className=" block__morelink  block--hero__morelink">
+                    <Link href={slide.link}>
+                        <a className=" block__morelink  block--hero__morelink">
                             {slide.button}
                         </a>
+                        </Link>
                     </div>
                 </div>
             </div>
