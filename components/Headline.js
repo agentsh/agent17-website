@@ -15,7 +15,7 @@ export default ({type, size, style, content}) => {
         };
     }
 
-    let s = Object.assign(styles[size], style, styles.headline);
+    let s = Object.assign({}, styles.headline, styles[size], style);
 
     //<Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
 
