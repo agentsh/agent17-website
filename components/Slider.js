@@ -40,10 +40,10 @@ export default class extends React.Component {
                     <div style={{
                         background: 'url(' + slide.img + ')',
                         backgroundSize: 'cover',
-                        height: '80vh',
+                        height: '100vh',
                         position: 'relative'
                     }}>
-                        <Headline type='h2' size='big' content={slide.title} style={{paddingTop: 100}}/>
+                        <Headline type='h2' size='big' content={slide.title} style={{paddingTop: 180}}/>
                         <Headline type='h3' size='small' content={slide.text} style={{
                             paddingBottom: 20,
                         }}/>
@@ -59,10 +59,11 @@ export default class extends React.Component {
         });
 
         return (
-            <Carousel speed={2}
+            <Carousel autoplayInterval={6000}
+                      speed={2000}
                       dragging={true}
                       autoplay={true}
-                      easing='easeInOutElastic'
+                      easing='easeInOut'
                       edgeEasing='easeOutCirc'
                       wrapAround={true}
             >

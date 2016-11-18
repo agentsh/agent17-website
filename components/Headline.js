@@ -1,10 +1,10 @@
 import React from 'react'
 
 const styles = {
-    headline: {},
-    big: {fontSize: '3rem', fontWeight: '300', textAlign: 'center'},
-    medium: {fontSize: '1.8rem', fontWeight: '300', textAlign: 'center'},
-    small: {fontSize: '1.5em', fontWeight: '300', textAlign: 'center'}
+    headline: {paddingLeft: 30, paddingRight: 30, textAlign: 'center'},
+    big: {fontSize: '3rem', fontWeight: '300'},
+    medium: {fontSize: '1.8rem', fontWeight: '300'},
+    small: {fontSize: '1.5em', fontWeight: '300'}
 }
 
 export default ({type, size, style, content}) => {
@@ -15,7 +15,7 @@ export default ({type, size, style, content}) => {
         };
     }
 
-    let s = Object.assign(styles[size], style)
+    let s = Object.assign(styles[size], style, styles.headline);
 
     //<Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
 
