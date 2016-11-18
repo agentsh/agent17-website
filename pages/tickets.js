@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Meta from '../components/Meta';
 
 export default class extends React.Component {
     static async getInitialProps({req}) {
@@ -10,6 +11,7 @@ export default class extends React.Component {
 
     render() {
         return <div>
+            <Meta/>
             <Navigation/>
         </div>
     }
