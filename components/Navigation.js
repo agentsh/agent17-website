@@ -16,22 +16,21 @@ export default class extends React.Component {
     //<Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
     render() {
 
-        let items = routes.map((route) => {
+        let items = routes.map((route, idx) => {
             if (!route.target) {
                 return (
-                    <li className='menu-item'>
+                    <li className='menu-item' key={idx}>
                         <Link href={route.link} className=''>{route.title}</Link>
                     </li>
                 )
             } else {
                 return (
-                    <li className='menu-item'>
+                    <li className='menu-item' key={idx}>
                         <a href={route.link} className='' target={route.target}>{route.title}</a>
                     </li>
                 )
             }
         });
-
 
         return (
             <header className='header header--fixed'>
@@ -39,12 +38,12 @@ export default class extends React.Component {
                     <nav className='header__content  header--fixed__content'>
                         <div className='header__brand  header--fixed__brand'>
                             <div className='header__logo  header--fixed__logo'>
-                                <Link className='header__logo-link  header--fixed__logo-link' href='/index'>
+                                <Link className='header__logo-link  header--fixed__logo-link' href='/index'><a>
                                     <img src='/static/img/logo-agent.png' className='logo' alt='Agent SH'/>
 
                                     <span className='header__slogan  header--fixed__slogan'>
-                            Agent conference<br/><span>20 & 21 January</span>
-                        </span>
+                                        Agent conference<br/><span>20 & 21 January</span>
+                                    </span></a>
                                 </Link>
                             </div>
 
