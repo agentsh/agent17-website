@@ -91,7 +91,7 @@ export default () => (
                     )
                 )
             }
-            <h3 className="text-center partners-headline">Meida Partners & Experts</h3>
+            <h3 className="text-center partners-headline">Media Partners & Experts</h3>
             <div className="row row-flex">
                 <div className="col-sm-2"/>
                 { mediaPartners.map(partner => (<Sponsor className="col-sm-2 mt60" sponsor={partner} key={partner.title}/>)) }

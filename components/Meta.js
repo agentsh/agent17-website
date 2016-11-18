@@ -43,12 +43,10 @@ export default () => (
         <meta property="twitter:image" content="http://agent.sh/dist/img/agent_sh_og.jpg"/>
         <meta property="twitter:image:" content="agent.sh Javascript conference"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif&Open+Sans:300,400,700=latin-ext" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:300,400,700=latin-ext" rel="stylesheet"/>
 
         <link rel="stylesheet" href="static/css/agent.css?v=1"/>
         <link rel="stylesheet" href="static/css/agent2.css?v=1"/>
-
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif&Open+Sans:300,400,700=latin-ext" rel="stylesheet"/>
 
         <link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png"/>
