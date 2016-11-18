@@ -1,2 +1,7 @@
 import React from 'react';
-export default () => <div>Hello World!</div>
+import Meta from '../components/Meta';
+
+export default () => <div>
+    <Meta/>
+    Hello World
+</div>
