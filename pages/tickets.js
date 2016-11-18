@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Meta from '../components/Meta';
-import Slider from '../components/Slider';
+import Eventbrite from '../components/Eventbrite';
 
 export default class extends React.Component {
     static async getInitialProps({req}) {
@@ -14,7 +14,7 @@ export default class extends React.Component {
         return <div>
             <Meta/>
             <Navigation/>
-            <Slider/>
+            <Eventbrite/>
         </div>
     }
 }

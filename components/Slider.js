@@ -29,46 +29,45 @@ const slides = [
     },
 ];
 
-export default class extends React.Component {
+export default () => {
 
-    render() {
 
-        let items = slides.map((slide, idx) => {
-
-            return (
-                <div key={idx}>
-                    <div style={{
-                        background: 'url(' + slide.img + ')',
-                        backgroundSize: 'cover',
-                        height: '100vh',
-                        position: 'relative'
-                    }}>
-                        <Headline type='h2' size='big' content={slide.title} style={{paddingTop: 180}}/>
-                        <Headline type='h3' size='small' content={slide.text} style={{
-                            paddingBottom: 20,
-                        }}/>
-
-                        <div className="block__more  block--hero__more" style={{textAlign: 'center'}}>
-                            <a href={slide.link} className=" block__morelink  block--hero__morelink">
-                                {slide.button}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            );
-        });
+    let items = slides.map((slide, idx) => {
 
         return (
-            <Carousel autoplayInterval={6000}
-                      speed={2000}
-                      dragging={true}
-                      autoplay={true}
-                      easing='easeInOut'
-                      edgeEasing='easeOutCirc'
-                      wrapAround={true}
-            >
-                {items}
-            </Carousel>
+            <div key={idx}>
+                <div style={{
+                    background: 'url(' + slide.img + ')',
+                    backgroundSize: 'cover',
+                    height: '100vh',
+                    position: 'relative'
+                }}>
+                    <Headline type='h2' size='big' content={slide.title} style={{paddingTop: 180}}/>
+                    <Headline type='h3' size='small' content={slide.text} style={{
+                        paddingBottom: 20,
+                    }}/>
+
+                    <div className="block__more  block--hero__more" style={{textAlign: 'center'}}>
+                        <a href={slide.link} className=" block__morelink  block--hero__morelink">
+                            {slide.button}
+                        </a>
+                    </div>
+                </div>
+            </div>
         );
-    }
+    });
+
+    return (
+        <Carousel autoplayInterval={6000}
+                  speed={2000}
+                  dragging={true}
+                  autoplay={true}
+                  easing='easeInOut'
+                  edgeEasing='easeOutCirc'
+                  wrapAround={true}
+        >
+            {items}
+        </Carousel>
+    );
+
 }
