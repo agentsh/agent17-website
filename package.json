@@ -1,0 +1,12 @@
+{
+  "name": "agent17-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.1.2"
+  },
+  "scripts": {
+      "dev": "next"
+  }
+}
