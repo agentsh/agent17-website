@@ -17,7 +17,6 @@ export default ({type, size, style, content}) => {
 
     let s = Object.assign(styles[size], style)
 
-
     //<Link href={`/account?id=${post.id}`}>{ post.realName }</Link>
 
     if (type.toLowerCase() == 'h1') {

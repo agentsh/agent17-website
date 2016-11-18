@@ -6,10 +6,26 @@ import Headline from './Headline';
 const slides = [
     {
         img: '/static/img/hero_00.jpg',
-        title: 'Meet world class engineers',
-        text: 'Agent Conf is about JavaScript and Software Engineering',
-        text2: '20th & 21st January in Dornbirn, Austria',
-        button: 'secure tickets'
+        title: 'MEET WORLD CLASS ENGINEERS',
+        text: <span>Agent Conf is about JavaScript and Software Engineering  <br/>20th & 21st January in Dornbirn, Austria</span>,
+        button: 'secure tickets',
+        link: '#tickets'
+    },
+    {
+        img: '/static/img/hero_1.jpg',
+        title: 'FROM FACEBOOK TO EXPONENT',
+        text: 'from vancouver to berlin',
+        button: 'meet the speakers',
+        link: '#speakers',
+        overlay: true
+    },
+    {
+        img: '/static/img/hero_4.jpg',
+        title: 'WHERE IS DORNBIRN',
+        text: '',
+        button: 'get to know the location',
+        link: '#tickets',
+        overlay: true
     },
 ];
 
@@ -18,26 +34,24 @@ export default class extends React.Component {
     render() {
 
         let items = slides.map((slide, idx) => {
+
             return (
                 <div key={idx}>
-                    <div style={{background: 'url(' + slide.img + ')', backgroundSize: 'cover', height: '80vh'}}>
-
+                    <div style={{
+                        background: 'url(' + slide.img + ')',
+                        backgroundSize: 'cover',
+                        height: '80vh',
+                        position: 'relative'
+                    }}>
                         <Headline type='h2' size='big' content={slide.title} style={{paddingTop: 100}}/>
                         <Headline type='h3' size='small' content={slide.text} style={{
-
-                            paddingTop: 50,
-                            paddingBottom: 20
-
-                        }}/>
-                        <Headline type='h3' size='small' content={slide.text2} style={{
-
-                            paddingTop: 10
+                            paddingBottom: 20,
                         }}/>
 
-                        <div className="block__more  block--hero__more">
-                            <Link href="#tickets" className=" block__morelink  block--hero__morelink">
-                                <a>secure tickets</a>
-                            </Link>
+                        <div className="block__more  block--hero__more" style={{textAlign: 'center'}}>
+                            <a href={slide.link} className=" block__morelink  block--hero__morelink">
+                                {slide.button}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +59,13 @@ export default class extends React.Component {
         });
 
         return (
-            <Carousel >
+            <Carousel speed={2}
+                      dragging={true}
+                      autoplay={true}
+                      easing='easeInOutElastic'
+                      edgeEasing='easeOutCirc'
+                      wrapAround={true}
+            >
                 {items}
             </Carousel>
         );
