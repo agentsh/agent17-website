@@ -63,5 +63,6 @@ export default () => (
         <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png"/>
         <link rel="manifest" href="static/favicon/manifest.json"/>
         <meta name="msapplication-TileImage" content="static/favicon/ms-icon-144x144.png"/>
+		<script src="https://use.fontawesome.com/9a9f0383c5.js"></script>
     </Head>
 )

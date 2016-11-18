@@ -1399,3 +1399,7 @@ hr {
 .block__description.block--feature__description li {
     font-size: 20px;
 }
+
+.section--flex-stretch {
+    padding-bottom: 0;
+}
