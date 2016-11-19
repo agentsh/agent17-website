@@ -1396,6 +1396,36 @@ hr {
     margin-right: -15px;
 }
 
+.menu--mobile {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    /*opacity: 0;*/
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.menu--mobile.open {
+    height: 100vh;
+    opacity: 1;
+    overflow: scroll;
+}
+
+.menu--mobile .menu-item {
+    margin-bottom: 2px;
+}
+
+@media (min-width: 1024px) {
+    .menu--mobile {
+        display: block;
+        height: auto;
+    }
+
+}
+
 .block__description.block--feature__description li {
     font-size: 20px;
 }

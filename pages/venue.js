@@ -3,11 +3,13 @@ import Navigation from '../components/Navigation';
 import Meta from '../components/Meta';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import Newsletter from '../components/Newsletter';
 
 export default () => (
     <div>
+        <Meta/>
         <Navigation/>
-        <section id="venue" className="section  section--splitview">
+        <section id="venue" className="section  section--splitview" style={{paddingTop: 115}}>
             <div className="  section__blocks  section--splitview__blocks">
                 <div className="grid grid--full">
                     <div className="grid__item  one-half  palm--one-whole">
@@ -55,8 +57,10 @@ export default () => (
 
                 <div className="  section__description  section--splitview__description">
                     <p>
-                        <a href="https://vimeo.com/67544229" target="_blank">Dornbirn</a>, the largest City in Vorarlberg is
-                        located at the Alpine ridge, reachable by car and train in 129 min from Zurich and Munich, and 220
+                        <a href="https://vimeo.com/67544229" target="_blank">Dornbirn</a>, the largest City in
+                        Vorarlberg is
+                        located at the Alpine ridge, reachable by car and train in 129 min from Zurich and Munich, and
+                        220
                         min from Milan. Friedrich Wilhelm Raiffeisen Forum
                     </p>
                     <a href="https://www.google.at/maps/dir//Raiffeisenbank+Im+Rheintal,+Rathauspl.+8,+6850+Dornbirn/@47.4159463,9.7288902,14z/data=!4m16!1m7!3m6!1s0x479b6b4c02443383:0x5db6b21f139a28d3!2sRaiffeisenbank+Im+Rheintal!3b1!8m2!3d47.4139881!4d9.7437171!4m7!1m0!1m5!1m1!1s0x479b6b4c02443383:0x5db6b21f139a28d3!2m2!1d9.7437171!2d47.4139881" target="_blank">find
@@ -64,8 +68,11 @@ export default () => (
                 </div>
             </div>
         </section>
-        <Meta/>
+
+        <Newsletter/>
         <Sponsors/>
         <Footer/>
+
+
     </div>
 );

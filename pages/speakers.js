@@ -3,6 +3,7 @@ import Meta from '../components/Meta';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import Newsletter from '../components/Newsletter';
 import Speaker from '../components/Speaker';
 
 const speakers = [
@@ -67,12 +68,13 @@ export default () => (
     <div>
         <Meta/>
         <Navigation/>
-        <section id="speakers" className="section  section--flex-stretch">
-			<div className="  section__blocks  section--flex-stretch__blocks">
+        <section id="speakers" className="section  section--flex-stretch" style={{marginTop: 115}}>
+            <div className="  section__blocks  section--flex-stretch__blocks">
                 {speakers.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
-			</div>
+            </div>
             <img src="static/img/hero_10.jpg" alt="img.landscape_16x9.alt"/>
         </section>
+        <Newsletter/>
         <Sponsors/>
         <Footer/>
     </div>
