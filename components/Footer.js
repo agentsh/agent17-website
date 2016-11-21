@@ -36,5 +36,7 @@ export default () => (
                 </div>
             </div>
         </div>
+
+        <script src="/static/js/tracking.footer.js"></script>
     </footer>
 );
