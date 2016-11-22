@@ -8,9 +8,9 @@
     "nuka-carousel": "^2.0.3"
   },
   "scripts": {
-    "postinstall":"next build",
     "dev": "next",
     "build": "next build",
+    "prestart":"next build",
     "start": "next start -p $PORT"
   }
 }
