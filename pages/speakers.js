@@ -51,7 +51,7 @@ const speakers = [
     {
         name: 'Tereza Sokol',
         company: 'Elm Plot',
-        title: 'To be announced',
+        title: 'Why you should care about Elm',
         github: '//github.com/terezka',
         image: 'static/img/tereza_sokol_thumb.jpg'
     },
