@@ -5,12 +5,24 @@ import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 import Slider from '../components/Slider';
 import Headline from '../components/Headline';
+import Speaker from '../components/Speaker';
+import speakers from '../data/speakerData';
 
 export default () => (
     <div>
         <Navigation/>
         <Meta/>
         <Slider/>
+        <section id="speakers" className="section  section--flex-stretch" style={{
+            paddingTop: 240,
+            background: 'url(static/img/hero_10.jpg) no-repeat bottom',
+            backgroundSize: '100%',
+            paddingBottom: 500
+        }}>
+            <div className="  section__blocks  section--flex-stretch__blocks">
+                {speakers.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
+            </div>
+        </section>
         <article className="block block--bg-image">
             <div className="  block__image  block--bg-image__image">
                 <img className="" src="static/img/ice-cube.jpg" alt="img.landscape_16x9.alt"/>
@@ -45,7 +57,8 @@ export default () => (
                             <img className="" src="static/img/nodejs.jpg" alt="node.js"/>
                             <div className='tech-block-text'>
                                 <div className="tech-block-text-title">node.js</div>
-                                <div className="tech-block-text-description font-family-2">Build Server Apps with JS</div>
+                                <div className="tech-block-text-description font-family-2">Build Server Apps with JS
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -54,15 +67,24 @@ export default () => (
                             <img className="" src="static/img/ElasticSearch.jpg" alt="elasticsearch"/>
                             <div className='tech-block-text'>
                                 <div className="tech-block-text-title">Current Tech</div>
-                                <div className="tech-block-text-description font-family-2">latest Insight on Webtech</div>
+                                <div className="tech-block-text-description font-family-2">latest Insight on Webtech
+                                </div>
                             </div>
                         </article>
                     </div>
                 </section>
 
                 <header className="align-center  block__header  block--bg-image__header  ">
-                    <Headline type="h3" size="medium" style={{color: 'white', display: 'inline-block', paddingRight: '0px'}} content="code"/>
-                    <Headline type="h3" size="medium" style={{color: '#888888', display: 'inline-block', paddingLeft: '0px'}} content="kəʊd/"/>
+                    <Headline type="h3" size="medium" style={{
+                        color: 'white',
+                        display: 'inline-block',
+                        paddingRight: '0px'
+                    }} content="code"/>
+                    <Headline type="h3" size="medium" style={{
+                        color: '#888888',
+                        display: 'inline-block',
+                        paddingLeft: '0px'
+                    }} content="kəʊd/"/>
                 </header>
 
                 <div className="color-2  block__description  block--bg-image__description">
@@ -72,7 +94,8 @@ export default () => (
                             purposes of secrecy.
                             <br/><span className='color-gray'>'the Americans cracked their diplomatic code'<br/>synonyms: cipher, secret language, secret writing, set of symbols, key, hieroglyphics;</span>
                         </li>
-                        <li>COMPUTING<br/>program instructions.<br/><span className='color-gray'>'assembly code'</span></li>
+                        <li>COMPUTING<br/>program instructions.<br/><span className='color-gray'>'assembly code'</span>
+                        </li>
                     </ol>
                     <span className='color-8'>verb</span><br/>
                     <ol>
@@ -80,13 +103,15 @@ export default () => (
                             meaning.<br/><span className='color-gray'>'only Mitch knew how to read the message—even the name was coded'</span>
                         </li>
                         <li>write code for (a computer program).<br/><span className='color-gray'>'most developers code. To iterate is human, to recurse divine'</span><br/><br/>Agent
-                            is linking and magnifying outstanding <br/>Talents and Companies from around the world. <br/>Got a
-                            unique code? <a href='mailto:team@agent.sh?subject=Apply as speaker'>Apply as a Speaker</a></li>
+                            is linking and magnifying outstanding <br/>Talents and Companies from around the world.
+                            <br/>Got a
+                            unique code? <a href='mailto:team@agent.sh?subject=Apply as speaker'>Apply as a Speaker</a>
+                        </li>
                     </ol>
                 </div>
             </div>
         </article>
-        
+
         <article className="block block--bgimage-fixed" style={{backgroundImage: 'url(static/img/agent_ski.jpg)'}}>
             <div className="block__content    block--bgimage-fixed__content">
 
@@ -125,136 +150,137 @@ export default () => (
         </article>
         <section id="tickets" className="section  section--bg-brand">
 
-        <div className="lc  section__content align-center  section--bg-brand__content">
+            <div className="lc  section__content align-center  section--bg-brand__content">
 
-            <header className="  section__header  section--bg-brand__header  ">
-                <h2 className="  section__title  section--bg-brand__title">
-                    take your chance now
-                </h2>
-            </header>
+                <header className="  section__header  section--bg-brand__header  ">
+                    <h2 className="  section__title  section--bg-brand__title">
+                        take your chance now
+                    </h2>
+                </header>
 
-            <div className="  section__description  section--bg-brand__description">
-                <p>
-                    This is where you register to learn & experience this unique event
-                </p>
+                <div className="  section__description  section--bg-brand__description">
+                    <p>
+                        This is where you register to learn & experience this unique event
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div className="lc    section__blocks  section--bg-brand__blocks">
+            <div className="lc    section__blocks  section--bg-brand__blocks">
 
-            <article className="block block--feature">
-                <a href="tickets.html" className="outerlink ">
+                <article className="block block--feature">
+                    <a href="tickets.html" className="outerlink ">
 
-                    <div className="block__content    block--feature__content">
-                        <div className="block__icon  block--feature__icon">
-                            <span className="icomoon icon-superearlybird"></span>
-                        </div>
+                        <div className="block__content    block--feature__content">
+                            <div className="block__icon  block--feature__icon">
+                                <span className="icomoon icon-superearlybird"></span>
+                            </div>
 
-                        <header className="  block__header  block--feature__header  ">
-                            <h2 className="upper h4  block__title  block--feature__title">
-                                Early bird
-                            </h2>
-                            <h3 className="h5  block__subtitle  block--feature__subtitle">
-                                298.00 €
-                            </h3>
-                        </header>
+                            <header className="  block__header  block--feature__header  ">
+                                <h2 className="upper h4  block__title  block--feature__title">
+                                    Early bird
+                                </h2>
+                                <h3 className="h5  block__subtitle  block--feature__subtitle">
+                                    298.00 €
+                                </h3>
+                            </header>
 
-                        <div className="  block__description  block--feature__description">
-                            <ul>
-                                <li>Conference 20.01 & 21.01</li>
-                                <li>All Talks</li>
-                                <li>Drinks & Snacks</li>
-                                <li>Networking Party</li>
-                            </ul>
-                        </div>
+                            <div className="  block__description  block--feature__description">
+                                <ul>
+                                    <li>Conference 20.01 & 21.01</li>
+                                    <li>All Talks</li>
+                                    <li>Drinks & Snacks</li>
+                                    <li>Networking Party</li>
+                                </ul>
+                            </div>
 
-                        <div className="align-center  block__more  block--feature__more">
+                            <div className="align-center  block__more  block--feature__more">
                         <span className="btn-ghost block__morelink  block--feature__morelink">
                             buy ticket
                         </span>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </article>
+                    </a>
+                </article>
 
-            <article className="block block--feature">
-                <a href="tickets.html" className="outerlink ">
-
-
-                    <div className="block__content    block--feature__content">
-                        <div className="  block__icon  block--feature__icon">
-                            <span className="icomoon icon-ski"></span>
-                        </div>
+                <article className="block block--feature">
+                    <a href="tickets.html" className="outerlink ">
 
 
-                        <header className="  block__header  block--feature__header  ">
-                            <h2 className="upper h4  block__title  block--feature__title">
-                                Conference & ski
-                            </h2>
-                            <h3 className="h5  block__subtitle  block--feature__subtitle">
-                                1450.00 €
-                            </h3>
-                        </header>
+                        <div className="block__content    block--feature__content">
+                            <div className="  block__icon  block--feature__icon">
+                                <span className="icomoon icon-ski"></span>
+                            </div>
 
-                        <div className="  block__description  block--feature__description">
-                            <ul>
-                                <li>Conference 20.01 & 21.01</li>
-                                <li>Ski & Hotel Lech 22.01, 23.01</li>
-                                <li>All Talks</li>
-                                <li>Drinks & Snacks</li>
-                                <li>Networking Party</li>
-                                <li>Ski ticket 2 days</li>
-                                <li>2 Nights Ski-Hotel</li>
-                                <li style={{color: 'red', padding: '20px'}}>book before 6th dec. 2016 get additional heliski
-                                </li>
-                            </ul>
-                        </div>
 
-                        <div className="align-center  block__more  block--feature__more">
+                            <header className="  block__header  block--feature__header  ">
+                                <h2 className="upper h4  block__title  block--feature__title">
+                                    Conference & ski
+                                </h2>
+                                <h3 className="h5  block__subtitle  block--feature__subtitle">
+                                    1450.00 €
+                                </h3>
+                            </header>
+
+                            <div className="  block__description  block--feature__description">
+                                <ul>
+                                    <li>Conference 20.01 & 21.01</li>
+                                    <li>Ski & Hotel Lech 22.01, 23.01</li>
+                                    <li>All Talks</li>
+                                    <li>Drinks & Snacks</li>
+                                    <li>Networking Party</li>
+                                    <li>Ski ticket 2 days</li>
+                                    <li>2 Nights Ski-Hotel</li>
+                                    <li style={{color: 'red', padding: '20px'}}>book before 6th dec. 2016 get additional
+                                        heliski
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="align-center  block__more  block--feature__more">
                         <span className="btn-ghost block__morelink  block--feature__morelink">
                             buy ticket
                         </span>
 
+                            </div>
+
                         </div>
-
-                    </div>
-                </a>
-            </article>
+                    </a>
+                </article>
 
 
-            <article className="block block--feature">
-                <a href="tickets.html" className="outerlink">
-                    <div className="block__content    block--feature__content">
-                        <div className="  block__icon  block--feature__icon">
-                            <span className="icomoon icon-sponsor"></span>
-                        </div>
+                <article className="block block--feature">
+                    <a href="tickets.html" className="outerlink">
+                        <div className="block__content    block--feature__content">
+                            <div className="  block__icon  block--feature__icon">
+                                <span className="icomoon icon-sponsor"></span>
+                            </div>
 
-                        <header className="  block__header  block--feature__header  ">
-                            <h2 className="upper h4  block__title  block--feature__title">
-                                Sponsor
-                            </h2>
-                            <h3 className="h5  block__subtitle  block--feature__subtitle">
-                                2950.00 €
-                            </h3>
-                        </header>
+                            <header className="  block__header  block--feature__header  ">
+                                <h2 className="upper h4  block__title  block--feature__title">
+                                    Sponsor
+                                </h2>
+                                <h3 className="h5  block__subtitle  block--feature__subtitle">
+                                    2950.00 €
+                                </h3>
+                            </header>
 
-                        <div className="  block__description  block--feature__description">
-                            <ul>
-                                <li>Logo presentation</li>
-                                <li>3 Conference Tickets</li>
-                            </ul>
-                        </div>
+                            <div className="  block__description  block--feature__description">
+                                <ul>
+                                    <li>Logo presentation</li>
+                                    <li>3 Conference Tickets</li>
+                                </ul>
+                            </div>
 
-                        <div className="align-center  block__more  block--feature__more">
+                            <div className="align-center  block__more  block--feature__more">
                         <span className="btn-ghost block__morelink  block--feature__morelink">
                             buy ticket
                         </span>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </article>
-        </div>
-    </section>
+                    </a>
+                </article>
+            </div>
+        </section>
         <article className="block block--bg-color">
             <div className="block__content  lc  align-center  block--bg-color__content">
 
@@ -264,10 +290,14 @@ export default () => (
 
                 <div className="  block__description  block--bg-color__description">
                     <p>
-                        It's easy to contact us via <a href='mailto:questions@agent.sh'>questions@agent.sh</a><br/>Follow us
+                        It's easy to contact us via <a href='mailto:questions@agent.sh'>questions@agent.sh</a><br/>Follow
+                        us
                         on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a>,
                         <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a> and Instagram. <br/><br/>Your
-                        Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>, <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>, <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>, <a href='mailto:moser@agent.sh'>Linda & Joe</a>
+                        Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>,
+                        <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>,
+                        <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>,
+                        <a href='mailto:moser@agent.sh'>Linda & Joe</a>
                     </p>
                 </div>
 

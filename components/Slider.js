@@ -60,9 +60,9 @@ export default () => {
     });
 
     return (
-        <Carousel autoplayInterval={6000}
-                  speed={2000}
-                  dragging={true}
+        <Carousel autoplayInterval={4000}
+                  speed={500}
+                  dragging={false}
                   autoplay={true}
                   easing='easeInOut'
                   edgeEasing='easeOutCirc'

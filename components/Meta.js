@@ -28,7 +28,7 @@ export default () => (
         <meta property="og:description" content="Experts and core contributers come to showcase their work in ReactJS, ReactNative, Node and more. Learn, talk and go skiing"/>
         <meta property="og:url" content="http://www.agent.sh"/>
         <meta property="og:locale" content="en_US"/>
-        <meta property="og:image" content="http://agent.sh/dist/img/agent_sh_og.jpg"/>
+        <meta property="og:image" content="http://www.agent.sh/static/img/agent_sh_og.jpg"/>
         <meta property="og:type" content="website"/>
         <meta property="og:site_name" content="Agent.sh"/>
 
@@ -40,13 +40,13 @@ export default () => (
         <meta property="twitter:url" content="http://www.agent.sh"/>
         <meta property="twitter:title" content="Agent the first alpine conference software engineering"/>
         <meta property="twitter:description" content="Experts and core contributers come to showcase their work in ReactJS, ReactNative, Node and more. Learn, talk and go skiing"/>
-        <meta property="twitter:image" content="http://agent.sh/dist/img/agent_sh_og.jpg"/>
+        <meta property="twitter:image" content="http://www.agent.sh/static/img/agent_sh_og.jpg"/>
         <meta property="twitter:image:" content="agent.sh Javascript conference"/>
 
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:300,400,700=latin-ext" rel="stylesheet"/>
 
-        <link rel="stylesheet" href="static/css/agent.css?v=1"/>
-        <link rel="stylesheet" href="static/css/agent2.css?v=1"/>
+        <link rel="stylesheet" href="static/css/agent.css?v=2"/>
+        <link rel="stylesheet" href="static/css/agent2.css?v=2"/>
 
         <link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png"/>
