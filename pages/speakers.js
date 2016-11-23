@@ -19,7 +19,7 @@ export default () => (
             backgroundSize: 'cover',
             paddingBottom: 200
         }}>
-            <Headline type='h1' size='big' content="Talks" style={{marginTop: 150}}/>
+            <Headline type='h1' size='big' content="Speakers & Talks" style={{marginTop: 150}}/>
             <div className="container">
                 {speakers.map(speaker => (<Talk key={speaker.name} speaker={speaker}/>))}
             </div>
