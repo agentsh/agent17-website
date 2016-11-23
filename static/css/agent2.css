@@ -1497,10 +1497,16 @@ hr {
     transform: rotateY(180deg);
 }
 
+
+
+@media (max-width: 767px) {
+    .tech-block-text{
+        height:130px;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
-
 @media (min-width: 992px) and (max-width: 1023px) {
 
 }
