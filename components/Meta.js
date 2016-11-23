@@ -45,8 +45,8 @@ export default () => (
 
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:300,400,700=latin-ext" rel="stylesheet"/>
 
-        <link rel="stylesheet" href="static/css/agent.css?v=2"/>
-        <link rel="stylesheet" href="static/css/agent2.css?v=2"/>
+        <link rel="stylesheet" href="static/css/agent.css?v=3"/>
+        <link rel="stylesheet" href="static/css/agent2.css?v=3"/>
 
         <link rel="apple-touch-icon" sizes="57x57" href="static/favicon/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="static/favicon/apple-icon-60x60.png"/>
