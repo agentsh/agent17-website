@@ -1,7 +1,7 @@
 export default [
     {
         name: 'Brent Vatne',
-        company: 'ExponentJS',
+        company: 'Exponent',
         title: 'To be announced',
         github: '//github.com/brentvatne',
         image: 'static/img/brent_vatne_thumb.jpg',
