@@ -49,7 +49,7 @@ export default [
     {
         name: 'Tereza Sokol',
         company: 'Elm Plot',
-        title: 'Why you should care about Elm',
+        title: 'JavaScript fatigue? Elm is what you\'re looking for!',
         github: '//github.com/terezka',
         image: 'static/img/tereza_sokol_thumb.jpg',
         imageTalk: 'static/img/talk/tereza_sokol_thumb.jpg'
