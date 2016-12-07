@@ -141,7 +141,7 @@ export default () => (
                         <li>A code of conduct</li>
                         <li>Accessibility for disabled: wheelchair access & on request</li>
                         <li>Alcohol-free drink options</li>
-                        <li>Quiet rooms and safe space</li>
+                        {/*<li>Quiet rooms and safe space</li>*/}
                         <li>Specials and outdoor action</li>
                     </ul>
                 </div>
@@ -230,9 +230,7 @@ export default () => (
                                     <li>Networking Party</li>
                                     <li>Ski ticket 2 days</li>
                                     <li>2 Nights Ski-Hotel</li>
-                                    <li style={{color: 'red', padding: '20px'}}>book before 6th dec. 2016 get additional
-                                        heliski
-                                    </li>
+
                                 </ul>
                             </div>
 
