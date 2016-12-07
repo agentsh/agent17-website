@@ -31,6 +31,14 @@ export default [
         imageTalk: 'static/img/talk/nik_graf_thumb.jpg'
     },
     {
+        name: 'Mike North',
+        company: 'Levanto Financial',
+        title: 'Anatomy of a Progressive Web App',
+        github: '//github.com/mike-north',
+        image: 'static/img/mike_north.jpg',
+        imageTalk: 'static/img/talk/mike_north.jpg'
+    },
+    {
         name: 'Sebastian Siemssen',
         company: 'AmazeeLabs',
         title: 'WebVR',
@@ -78,4 +86,5 @@ export default [
         image: 'static/img/case_sandberg_thumb.jpg',
         imageTalk: 'static/img/talk/case_sandberg_thumb.jpg'
     }
+
 ];
