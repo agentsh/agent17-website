@@ -104,8 +104,6 @@ export default () => (
                         </li>
                         <li>write code for (a computer program).<br/><span className='color-gray'>'most developers code. To iterate is human, to recurse divine'</span><br/><br/>Agent
                             is linking and magnifying outstanding <br/>Talents and Companies from around the world.
-                            <br/>Got a
-                            unique code? <a href='mailto:team@agent.sh?subject=Apply as speaker'>Apply as a Speaker</a>
                         </li>
                     </ol>
                 </div>
