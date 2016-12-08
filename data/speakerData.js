@@ -10,7 +10,7 @@ export default [
     {
         name: 'Christoph Pojer',
         company: 'Facebook',
-        title: 'To be announced',
+        title: 'Building high-quality JavaScript Tools',
         github: '//github.com/cpojer',
         image: 'static/img/christoph_pojer_thumb.jpg',
         imageTalk: 'static/img/talk/christoph_pojer_thumb.jpg'
@@ -85,6 +85,13 @@ export default [
         github: '//github.com/casesandberg',
         image: 'static/img/case_sandberg_thumb.jpg',
         imageTalk: 'static/img/talk/case_sandberg_thumb.jpg'
+    },
+    {
+        name: 'David Khourshid',
+        company: 'Counsyl',
+        title: 'Web Animation Redefined: Reactive Animations with RxJS and CSS Variables',
+        github: '//github.com/davidkpiano',
+        image: 'static/img/david_khourshid_thumb.jpg',
+        imageTalk: 'static/img/talk/david_khourshid_thumb.jpg'
     }
-
 ];
