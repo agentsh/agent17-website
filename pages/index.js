@@ -166,7 +166,7 @@ export default () => (
             <div className="lc    section__blocks  section--bg-brand__blocks">
 
                 <article className="block block--feature">
-                    <a href="tickets.html" className="outerlink ">
+                    <a href="tickets" className="outerlink ">
 
                         <div className="block__content    block--feature__content">
                             <div className="block__icon  block--feature__icon">
@@ -201,7 +201,7 @@ export default () => (
                 </article>
 
                 <article className="block block--feature">
-                    <a href="tickets.html" className="outerlink ">
+                    <a href="tickets" className="outerlink ">
 
 
                         <div className="block__content    block--feature__content">
@@ -245,7 +245,7 @@ export default () => (
 
 
                 <article className="block block--feature">
-                    <a href="tickets.html" className="outerlink">
+                    <a href="tickets" className="outerlink">
                         <div className="block__content    block--feature__content">
                             <div className="  block__icon  block--feature__icon">
                                 <span className="icomoon icon-sponsor"></span>
