@@ -8,21 +8,21 @@ const slides = [
         img: '/static/img/hero_00.jpg',
         title: 'MEET WORLD CLASS ENGINEERS',
         text: <span>Agent Conf is about JavaScript and Software Engineering  <br/>20th & 21st January in Dornbirn, Austria</span>,
-        button: 'secure tickets',
+        button: 'Get Tickets today',
         link: '/tickets'
     },
     {
         img: '/static/img/hero_1.jpg',
-        title: 'FROM FACEBOOK TO EXPONENT',
-        text: 'from vancouver to berlin',
+        title: 'Meet Engineers from USA, CA and EU',
+        text: 'Join the world’s best coders that work at Companies like Facebook, Exponent and Soundcloud for two days of inspiration',
         button: 'meet the speakers',
         link: '/speakers',
         overlay: true
     },
     {
         img: '/static/img/hero_4.jpg',
-        title: 'WHERE IS DORNBIRN',
-        text: '',
+        title: 'Dornbirn? Where is that?',
+        text: 'Nestled in the heart of the Austrian alps, that’s where!',
         button: 'get to know the location',
         link: '/venue',
         overlay: true
@@ -62,6 +62,8 @@ const H3 = styled.h3`
     font-weight: 300;
     text-align:center;
     padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 0px;
 `;
 
