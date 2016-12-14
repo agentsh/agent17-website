@@ -1516,3 +1516,11 @@ hr {
         height:100px;
     }
 }
+
+@media (min-width: 64em) {
+    .section__description, .block__description {
+        font-size: 1.4625rem;
+        margin-bottom: 0.78515rem;
+        padding-top: 0.21485rem;
+    }
+}

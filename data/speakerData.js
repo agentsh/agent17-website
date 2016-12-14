@@ -73,7 +73,7 @@ export default [
     {
         name: 'Balint Erdi',
         company: 'Ember.js consultant',
-        title: 'Ember Talk',
+        title: 'Robust, Ergonomic, Batteries Included: Why you should consider Ember.js for your next project',
         github: '//github.com/balinterdi',
         image: 'static/img/balint_erdi_thumb.jpg',
         imageTalk: 'static/img/talk/balint_erdi_thumb.jpeg'
