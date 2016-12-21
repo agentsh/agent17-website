@@ -93,5 +93,13 @@ export default [
         github: '//github.com/davidkpiano',
         image: 'static/img/david_khourshid_thumb.jpg',
         imageTalk: 'static/img/talk/david_khourshid_thumb.jpg'
+    },
+    {
+        name: 'Andrey Okonetchnikov',
+        company: 'Freelance UI Designer & Developer',
+        title: 'Modular CSS',
+        github: '//github.com/okonet',
+        image: 'static/img/andrey_okonetchnikov.jpg',
+        imageTalk: 'static/img/talk/andrey_okonetchnikov.jpg'
     }
 ];
