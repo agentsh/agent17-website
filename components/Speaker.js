@@ -5,7 +5,7 @@ export default ({speaker}) => (
 		<div className="block__container  block--flip__container">
 			<div className="block__front  block--flip__front">
 				<div className="  block__image  block--flip__image">
-					<img className="" src={speaker.image} alt="img.landscape_16x9.alt"/>
+					<img className="" src={speaker.image} alt="{speaker.name}"/>
 				</div>
 
 				<header className="  block__header  block--flip__header  ">
