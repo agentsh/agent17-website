@@ -4,6 +4,7 @@ import Link from 'next/link';
 const routes = [
     {link: '/index', title: 'Home'},
     {link: '/speakers', title: 'Speakers'},
+    {link: '/schedule', title: 'Schedule'},
     {link: '/venue', title: 'Venue'},
     {link: '/tickets', title: 'Tickets'},
     {link: 'http://blog.agent.sh', title: 'Blog', target: '_blank'},
@@ -11,7 +12,6 @@ const routes = [
 
 
 export default class extends React.Component {
-
 
     constructor(props) {
         super(props);
