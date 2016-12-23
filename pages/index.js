@@ -290,10 +290,7 @@ export default () => (
                         us
                         on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a>,
                         <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a> and Instagram. <br/><br/>Your
-                        Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>,
-                        <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>,
-                        <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>,
-                        <a href='mailto:moser@agent.sh'>Linda & Joe</a>
+                        Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>, <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>, <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>, <a href='mailto:moser@agent.sh'>Linda & Joe</a>
                     </p>
                 </div>
 
