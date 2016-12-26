@@ -46,7 +46,7 @@ export default class extends React.Component {
 
                 <p>Tom, Phuc, Guntram, Felicitas, Daniel, Bronwen, Linda, Joe</p>
 
-                <p>The Team behind Agent is partnered with „Plattform für digitale Initativen"  Our goal is to get the best speakers around the World to help Dornbirn become an innovation HUB of Europe. We started to organize international conferences three years ago, and we have had serveral events  (UH15, GameJam, UH16) already been held.</p>
+                <p>The Team behind Agent is partnered with „Plattform für digitale Initativen"  Our goal is to get the best speakers around the World to help Dornbirn become an innovation HUB of Europe. We started to organize international conferences three years ago, and we have had serveral events (UH15, GameJam, UH16) already been held.</p>
 
 
                 <Headline type='h3' size='medium' content='Why does expertise in product development really matter?' style={{textAlign:'left', paddingLeft:0}}/>

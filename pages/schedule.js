@@ -7,7 +7,11 @@ import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 import Headline from '../components/Headline';
-
+import Speaker from '../components/SpeakerSchedule';
+import speakers from '../data/scheduleData';
+import speakers2 from '../data/scheduleData2';
+import speakers3 from '../data/scheduleData3';
+import speakers4 from '../data/scheduleData4';
 
 const ScheduleTitle = styled.div`
     padding-top: 150px;
@@ -28,7 +32,18 @@ const ScheduleTitle = styled.div`
 
 
 const Schedule = styled.div`
-    
+    .border {
+        border: 1px solid #000;
+    }
+
+    .heading {
+        padding: 10px 30px;
+        
+    }
+
+    .bg-color {
+        background-color: #8593ac;
+    }
 `;
 
 const times = ['08:00', '08:15','08:30','08:45',
@@ -58,12 +73,9 @@ export default class extends React.Component {
             <div className='container'>
             <div className='row'>
             <div className='col-sm-6 uppercase'>
-
                 <Headline type='h1' size='large' content='Conference schedule' style={{textAlign:'left', paddingLeft:0}}/>
 
                 <Headline type='h2' size='medium' content='Two action packed days of inspirational talks, networking, experiences and fun' style={{textAlign:'left', paddingLeft:0}}/>
-
-
             </div>
             </div>
             </div>
@@ -71,51 +83,55 @@ export default class extends React.Component {
 
             <Schedule>
                 <div className='container'>
+                    <br />
                     <div className='grid'>
-                        <div className='grid__item  one-sixth  palm--one-whole'>
-                        </div>
-
-                        <div className='grid__item  five-sixth  palm--one-whole'>
-                            <div className='grid'>
-                                <div className='grid__item  one-fifth  palm--one-whole'>
-                                    <div><br /><br />
-                                    </div>
-
-                                    {times.map(
-                                        (t) => {
-                                            <div>{t} test</div>
-                                    })}
-
+                        <div className='grid__item  one-half  palm--one-whole'>
+                            <div className='border'>
+                                <div className='heading'>
+                                    Day 1, Dornbirn<br />
+                                    Friday, 20.01.2017
                                 </div>
-
-                                <div className='grid__item  one-fifth  palm--one-whole'>
-                                    <div className=''>
-                                        Day 1, Dornbirn<br />
-                                        Friday, 20.01.2017
-                                    </div>
-                                </div>
-
-                                <div className='grid__item  one-fifth  palm--one-whole'>
-                                    <div className=''>
-                                        Day 2, Dornbirn<br />
-                                        Saturday, 21.01.2017
-                                    </div>
-                                </div>
-
-                                <div className='grid__item  one-fifth  palm--one-whole'>
-                                    <div className=''>
-                                        Day 3, Dornbirn<br />
-                                        Sunday, 22.01.2017
-                                    </div>
-                                </div>
-
-                                <div className='grid__item  one-fifth  palm--one-whole'>
-                                    <div className=''>
-                                        Day 4, Dornbirn<br />
-                                        Monday, 23.01.2017
-                                    </div>
-                                </div>
+                                {speakers.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
                             </div>
+                            <br />
+                        </div>
+                        <div className='grid__item  one-half  palm--one-whole'>
+                            <div>
+                                <br /><br /><br />
+
+                            </div>
+                            <div className='border'>
+                                <div className='heading'>
+                                    Day 2, Dornbirn<br />
+                                    Saturday, 21.01.2017
+                                </div>
+                                {speakers2.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
+                            </div>
+                            <br />
+                        </div>
+                        <div className='grid__item  one-half  palm--one-whole'>
+                            <div className='border'>
+                                <div className='heading'>
+                                    Day 3, Dornbirn<br />
+                                    Sunday, 22.01.2017
+                                </div>
+                                {speakers3.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
+                            </div>
+                            <br />
+                        </div>
+                        <div className='grid__item  one-half  palm--one-whole'>
+                            <div>
+                                <br /><br /><br />
+                                
+                            </div>
+                            <div className='border'>
+                                <div className='heading'>
+                                    Day 4, Dornbirn<br />
+                                    Monday, 23.01.2017
+                                </div>
+                                {speakers4.map(speaker => (<Speaker key={speaker.name} speaker={speaker}/>))}
+                            </div>
+                            <br />
                         </div>
                     </div>
                 </div>
