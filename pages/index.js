@@ -3,7 +3,8 @@ import Navigation from '../components/Navigation';
 import Meta from '../components/Meta';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
-import Slider from '../components/Slider';
+import VideoHeader from '../components/VideoHeader';
+import AgentSmallInfo from '../components/AgentSmallInfo';
 import Headline from '../components/Headline';
 import Speaker from '../components/Speaker';
 import speakers from '../data/speakerData';
@@ -12,7 +13,8 @@ export default () => (
     <div>
         <Navigation/>
         <Meta/>
-        <Slider/>
+        <VideoHeader/>
+        <AgentSmallInfo/>
         <section id="speakers" className="section  section--flex-stretch" style={{
             paddingTop: 240,
             background: 'url(static/img/hero_10.jpg) no-repeat bottom',
