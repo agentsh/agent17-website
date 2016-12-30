@@ -12,7 +12,7 @@ import Headline from '../components/Headline';
 const CodeOfConduct = styled.div`
     padding-top: 150px;
     padding-bottom: 100px;
-    background: black;
+    background: #212121;
     h1, h2 {
         color: white !important;
     }

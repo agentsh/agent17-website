@@ -32,8 +32,11 @@ const ScheduleTitle = styled.div`
 
 
 const Schedule = styled.div`
+    padding-top:70px;
+    padding-bottom: 70px;
+
     .border {
-        border: 1px solid #000;
+        border: 1px solid #aaa;
     }
 
     .heading {

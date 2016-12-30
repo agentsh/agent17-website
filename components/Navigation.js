@@ -3,9 +3,10 @@ import Link from 'next/link';
 
 const routes = [
     {link: '/index', title: 'Home'},
-    {link: '/speakers', title: 'Speakers'},
+    // {link: '/speakers', title: 'Speakers'},
     {link: '/schedule', title: 'Schedule'},
     {link: '/venue', title: 'Venue'},
+    {link: '/about', title: 'About'},
     {link: '/tickets', title: 'Tickets'},
     {link: 'http://blog.agent.sh', title: 'Blog', target: '_blank'},
 ]

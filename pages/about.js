@@ -12,7 +12,7 @@ import Headline from '../components/Headline';
 const About = styled.div`
     padding-top: 150px;
     padding-bottom: 100px;
-    background: black;
+    background: #212121;
     h1, h2, h3 {
         color: white !important;
     }
@@ -44,7 +44,7 @@ export default class extends React.Component {
 
                 <Headline type='h2' size='medium' content='Organizers' style={{textAlign:'left', paddingLeft:0}}/>
 
-                <p>Tom, Phuc, Guntram, Felicitas, Daniel, Bronwen, Linda, Joe</p>
+                <p>Tom, Phuc, Guntram, Daniel, Felicitas, Bronwen, Linda, Joe</p>
 
                 <p>The Team behind Agent is partnered with „Plattform für digitale Initativen"  Our goal is to get the best speakers around the World to help Dornbirn become an innovation HUB of Europe. We started to organize international conferences three years ago, and we have had serveral events (UH15, GameJam, UH16) already been held.</p>
 

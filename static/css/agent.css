@@ -2703,7 +2703,7 @@ p {
 /*------------------------------------*    $BLOCK-FEATURE ROUNDED
 \*------------------------------------*/
 .block--feature-rounded {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #aaa;
   padding: 10px 30px;
   min-height: 105px;
   display: flex;

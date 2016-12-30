@@ -8,6 +8,7 @@ import AgentSmallInfo from '../components/AgentSmallInfo';
 import Headline from '../components/Headline';
 import Speaker from '../components/Speaker';
 import speakers from '../data/speakerData';
+import Link from 'next/link';
 
 export default () => (
     <div>
@@ -144,6 +145,9 @@ export default () => (
                         {/*<li>Quiet rooms and safe space</li>*/}
                         <li>Specials and outdoor action</li>
                     </ul>
+
+
+                    <Link href={'/coc'} className=''>Code of conduct</Link>
                 </div>
 
             </div>

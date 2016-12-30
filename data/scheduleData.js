@@ -8,9 +8,7 @@ export default [
         name: 'Christoph Pojer',
         company: 'Facebook',
         title: 'Building high-quality JavaScript Tools',
-        github: '//github.com/cpojer',
-        image: 'static/img/christoph_pojer_thumb.jpg',
-        imageTalk: 'static/img/talk/christoph_pojer_thumb.jpg',
+        imageTalk: 'static/img/speaker/002_sq_Christoph_Pojer.jpg',
         time: '09:00 - 09:45',
         class: ''
     },
@@ -19,8 +17,7 @@ export default [
         company: 'SoundCloud',
         title: 'How React Native Changed Prototyping at SoundCloud',
         github: '',
-        image: 'static/img/',
-        imageTalk: 'static/img/',
+        imageTalk: '',
         time: '09:45 - 10:30',
         class: ''
     },
@@ -33,9 +30,7 @@ export default [
         name: 'Patrick Stapfer',
         company: 'FlowType Evangelist',
         title: 'Flowtype and The Wonders of Statically Typed JavaScript',
-        github: '//github.com/ryyppy',
-        image: 'static/img/patrick_stapfer_thumb.jpg',
-        imageTalk: 'static/img/talk/patrick_stapfer_thumb.jpg',
+        imageTalk: 'static/img/speaker/009_sq_Patrick_Stapfer.jpg',
         time: '11:15 - 12:00',
         class: ''
     },
@@ -44,8 +39,7 @@ export default [
         company: 'KeystoneJS',
         title: 'Building third-party component libaries',
         github: '//github.com/mxstbr',
-        image: 'static/img/max_stoiber_thumb.jpg',
-        imageTalk: 'static/img/talk/max_stoiber_thumb.jpg',
+        imageTalk: 'static/img/speaker/007_sq_Max_Stoiber.jpg',
         time: '12:00 - 12:45',
         class: ''
     },
@@ -59,8 +53,7 @@ export default [
         company: 'Ember.js consultant',
         title: 'Robust, Ergonomic, Batteries Included: Why you should consider Ember.js for your next project',
         github: '//github.com/balinterdi',
-        image: 'static/img/balint_erdi_thumb.jpg',
-        imageTalk: 'static/img/talk/balint_erdi_thumb.jpeg',
+        imageTalk: 'static/img/speaker/010_sq_Balint_Erdi.jpg',
         time: '14:15 - 15:00',
         class: ''
     },
@@ -68,9 +61,7 @@ export default [
         name: 'Mike North',
         company: 'Levanto Financial',
         title: 'Anatomy of a Progressive Web App',
-        github: '//github.com/mike-north',
-        image: 'static/img/mike_north.jpg',
-        imageTalk: 'static/img/talk/mike_north.jpg',
+        imageTalk: 'static/img/speaker/005_sq_Michael_North.jpg',
         time: '15:00 - 15:45',
         class: ''
     },
@@ -83,9 +74,7 @@ export default [
         name: 'Tereza Sokol',
         company: 'Elm Plot',
         title: 'JavaScript fatigue? Elm is what you\'re looking for!',
-        github: '//github.com/terezka',
-        image: 'static/img/tereza_sokol_thumb.jpg',
-        imageTalk: 'static/img/talk/tereza_sokol_thumb.jpg',
+        imageTalk: 'static/img/speaker/008_sq_Tereza_Sokol.jpg',
         time: '16:30 - 17:15',
         class: ''
     },
