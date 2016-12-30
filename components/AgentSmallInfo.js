@@ -6,7 +6,7 @@ const Content = styled.div`
     background: #212121;
     color: white;
     position:relative;
-    padding-top:80px;
+    padding-top:60px;
     padding-bottom:80px;
     text-align:center;
 
