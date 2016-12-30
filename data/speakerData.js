@@ -95,8 +95,8 @@ export default [
         imageTalk: 'static/img/talk/david_khourshid_thumb.jpg'
     },
     {
-        name: 'Andrey Okonetchnikov',
-        company: 'Freelance UI Designer & Developer',
+        name: 'A. Okonetchnikov',
+        company: 'UI Designer & Dev',
         title: 'Modular CSS',
         github: '//github.com/okonet',
         image: 'static/img/andrey_okonetchnikov.jpg',
