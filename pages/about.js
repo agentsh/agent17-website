@@ -36,6 +36,7 @@ export default class extends React.Component {
             <Meta/>
             <Navigation/>
             <About>
+
             <div className='container'>
             <div className='row'>
             <div className='col-sm-12'>
@@ -47,7 +48,9 @@ export default class extends React.Component {
                 <p>Tom, Phuc, Guntram, Daniel, Felicitas, Bronwen, Linda, Joe</p>
 
                 <p>The Team behind Agent is partnered with „Plattform für digitale Initativen"  Our goal is to get the best speakers around the World to help Dornbirn become an innovation HUB of Europe. We started to organize international conferences three years ago, and we have had serveral events (UH15, GameJam, UH16) already been held.</p>
-
+                <div>
+                    <img src='static/img/organizers.jpg' alt='organizers' /><br /><br />
+                </div>
 
                 <Headline type='h3' size='medium' content='Why does expertise in product development really matter?' style={{textAlign:'left', paddingLeft:0}}/>
                 <p>

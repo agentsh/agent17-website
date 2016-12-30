@@ -99,10 +99,6 @@ export default class extends React.Component {
                             <br />
                         </div>
                         <div className='grid__item  one-half  palm--one-whole'>
-                            <div>
-                                <br /><br /><br />
-
-                            </div>
                             <div className='border'>
                                 <div className='heading'>
                                     Day 2, Dornbirn<br />
@@ -113,6 +109,9 @@ export default class extends React.Component {
                             <br />
                         </div>
                         <div className='grid__item  one-half  palm--one-whole'>
+                            <div>
+                                <br /><br /><br />
+                            </div>
                             <div className='border'>
                                 <div className='heading'>
                                     Day 3, Dornbirn<br />
@@ -125,7 +124,6 @@ export default class extends React.Component {
                         <div className='grid__item  one-half  palm--one-whole'>
                             <div>
                                 <br /><br /><br />
-                                
                             </div>
                             <div className='border'>
                                 <div className='heading'>
