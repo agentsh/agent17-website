@@ -44,8 +44,7 @@ export default () => {
                 <Headline>Fuelled by the passion for engineering & secrets.</Headline>
                 <p>
                     Agent the first alpine conference dedicated to software engineering.<br />
-                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more. <br />Learn, talk and ski. 
-                    and more. 
+                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more. <br />Learn, talk and ski and more. 
                 </p>
                 <p style={{ marginTop: 30 }}>Want to share your thoughts here?
                 </p>
