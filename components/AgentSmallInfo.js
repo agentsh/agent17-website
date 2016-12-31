@@ -6,13 +6,12 @@ const Content = styled.div`
     background: #212121;
     color: white;
     position:relative;
-    padding-top:60px;
+    padding-top:80px;
     padding-bottom:80px;
     text-align:center;
-
     p{
-        padding-left:80px;
-        padding-right:80px;
+        padding-left:120px;
+        padding-right:120px;
         font-size: 20px;
     }
     @media (max-width: 480px) {
