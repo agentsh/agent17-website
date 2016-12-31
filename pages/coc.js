@@ -12,14 +12,13 @@ import Headline from '../components/Headline';
 const CodeOfConduct = styled.div`
     padding-top: 150px;
     padding-bottom: 100px;
-    background: #212121;
+    
     h1, h2 {
-        color: white !important;
     }
     p{
         font-size: 20px;
         padding-bottom: 40px;
-        color: #b2b2b2;
+        color: #212121;
     }
 `;
 

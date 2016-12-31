@@ -7,19 +7,19 @@ import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 import Headline from '../components/Headline';
+import ImageHeader from '../components/ImageHeader';
 
 
 const About = styled.div`
-    padding-top: 150px;
-    padding-bottom: 100px;
-    background: #212121;
+    padding-top: 70px;
+    padding-bottom: 70px;
     h1, h2, h3 {
-        color: white !important;
+        color: #111 !important;
     }
     p{
         font-size: 20px;
         padding-bottom: 40px;
-        color: #b2b2b2;
+        color: #212121;
     }
 `;
 
@@ -35,11 +35,12 @@ export default class extends React.Component {
         return <div>
             <Meta/>
             <Navigation/>
+            <ImageHeader imageUrl={'./static/img/organizers.jpg'} />
             <About>
 
             <div className='container'>
             <div className='row'>
-            <div className='col-sm-12'>
+            <div className='col-sm-8 col-sm-offset-2'>
 
                 <Headline type='h1' size='medium' content='WHO IS BEHIND THE CONFERENCE?'/>
 
@@ -48,9 +49,6 @@ export default class extends React.Component {
                 <p>Tom, Phuc, Guntram, Daniel, Felicitas, Bronwen, Linda, Joe</p>
 
                 <p>The Team behind Agent is partnered with „Plattform für digitale Initativen"  Our goal is to get the best speakers around the World to help Dornbirn become an innovation HUB of Europe. We started to organize international conferences three years ago, and we have had serveral events (UH15, GameJam, UH16) already been held.</p>
-                <div>
-                    <img src='static/img/organizers.jpg' alt='organizers' /><br /><br />
-                </div>
 
                 <Headline type='h3' size='medium' content='Why does expertise in product development really matter?' style={{textAlign:'left', paddingLeft:0}}/>
                 <p>
