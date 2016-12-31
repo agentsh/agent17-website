@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 const VideoContent = styled.div`
     position:relative;
-    margin-top: 70px;
+    margin-top: 100px;
     clear:both;
-    max-height:550px;
     overflow:hidden;
     @media (max-width: 900px) {
+        margin-top:50px;
         height:600px;
         background: url('./static/img/speaker-mobile.jpg') no-repeat center bottom;
         background-size: cover;
@@ -19,18 +19,21 @@ const TextContext = styled.div`
     position:absolute;
     top:0;
     left:0;
-    padding-top:90px;
+    padding-top:70px;
     padding-left:20px;
     z-index:50;
     color:white;
     text-transform: uppercase;
     @media (min-width: 1600px) {
+        padding-top:180px;
         padding-left: 180px;
     }
     @media (min-width: 1200px) and (max-width: 1599px) {
+        padding-top:130px;
         padding-left: 130px;
     }
     @media (min-width: 1024px) and (max-width: 1199px) {
+        padding-top:70px;
         padding-left: 70px;
     }
 `;
