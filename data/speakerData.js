@@ -109,5 +109,20 @@ export default [
         github: '//github.com/ds300',
         image: 'static/img/speaker/014_David_Sheldrick.jpg',
         imageTalk: 'static/img/speaker/014_sq_David_Sheldrick.jpg'
+    },
+    {
+        name: 'Jan Monschke',
+        company: 'Soundcloud',
+        title: 'How React Native Changed Prototyping at SoundCloud',
+        github: '//github.com/janmonschke',
+        image: 'static/img/speaker/016_Jan_Monschke.jpg',
+        imageTalk: 'static/img/speaker/016_sq_Jan_Monschke.jpg',
+    },
+    {
+        name: 'Svanlaug Ingólfsdóttir',
+        company: 'Soundcloud',
+        title: 'How React Native Changed Prototyping at SoundCloud',
+        image: 'static/img/speaker/015_Svanlaug_Ingolfsdottir_Svana.jpg',
+        imageTalk: 'static/img/speaker/015_sq_Svanlaug_Ingolfsdottir_Svana.jpg'
     }
 ];
