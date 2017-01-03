@@ -77,10 +77,10 @@ export default [
     },
     {
         name: 'David Sheldrick',
-        company: '',
-        title: '',
-        github: '',
-        imageTalk: '',
+        company: 'Futurice',
+        title: 'Bottling React’s secret sauce',
+        github: 'https://github.com/ds300',
+        imageTalk: 'static/img/speaker/014_sq_David_Sheldrick.jpg',
         time: '17:15 - 18:00',
         class: ''
     },

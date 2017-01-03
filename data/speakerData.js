@@ -101,5 +101,13 @@ export default [
         github: '//github.com/okonet',
         image: 'static/img/speaker/013_andrey_okonetchnikov.jpg',
         imageTalk: 'static/img/speaker/013_sq_andrey_okonetchnikov.jpg'
+    },
+    {
+        name: 'David Sheldrick',
+        company: 'Futurice',
+        title: 'Bottling React’s secret sauce',
+        github: '//github.com/ds300',
+        image: 'static/img/speaker/014_David_Sheldrick.jpg',
+        imageTalk: 'static/img/speaker/014_sq_David_Sheldrick.jpg'
     }
 ];
