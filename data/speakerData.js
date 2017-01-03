@@ -119,7 +119,7 @@ export default [
         imageTalk: 'static/img/speaker/016_sq_Jan_Monschke.jpg',
     },
     {
-        name: 'Svanlaug Ingólfsdóttir',
+        name: 'S. Ingólfsdóttir',
         company: 'Soundcloud',
         title: 'How React Native Changed Prototyping at SoundCloud',
         image: 'static/img/speaker/015_Svanlaug_Ingolfsdottir_Svana.jpg',
