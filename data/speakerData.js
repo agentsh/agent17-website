@@ -64,7 +64,7 @@ export default [
     },
     {
         name: 'Patrick Stapfer',
-        company: 'FlowType Evangelist',
+        company: 'Flowtype Evangelist',
         title: 'Flowtype and The Wonders of Statically Typed JavaScript',
         github: '//github.com/ryyppy',
         image: 'static/img/speaker/009_Patrick_Stapfer.jpg',
