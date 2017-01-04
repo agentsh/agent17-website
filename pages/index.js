@@ -325,6 +325,8 @@ export default () => (
                                         <li>All Talks</li>
                                         <li>Conference refreshments</li>
                                         <li>Networking Party</li>
+
+                                        <li><br /><i>Note: Only held at 10 participants. <br />Risk free, fee refundedable</i></li>
                                     </ul>
                                 </div>
 
@@ -363,6 +365,8 @@ export default () => (
                                         <li>All Talks</li>
                                         <li>Conference refreshments</li>
                                         <li>Networking Party</li>
+
+                                        <li><br /><i>Note: Only held at 10 participants. <br />Risk free, fee refundedable</i></li>
                                     </ul>
                                 </div>
 
