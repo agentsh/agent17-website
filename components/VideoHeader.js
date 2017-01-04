@@ -74,7 +74,7 @@ const content = (
         <Headline className='grey'>Conf.</Headline>
 
         <Headline2>2 Days of Technology</Headline2>
-        <p>14 Talks, Networking, Fun<br />
+        <p>14 Talks, Networking and Fun<br />
             January 20-21, 2017
                 </p>
         <Headline2>2 Days of Skiing in Lech</Headline2>
