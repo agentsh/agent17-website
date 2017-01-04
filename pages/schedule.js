@@ -78,7 +78,7 @@ export default class extends React.Component {
             <div className='col-sm-6 uppercase'>
                 <Headline type='h1' size='large' content='Conference schedule' style={{textAlign:'left', paddingLeft:0}}/>
 
-                <Headline type='h2' size='medium' content='Two action packed days of inspirational talks, networking, experiences and fun' style={{textAlign:'left', paddingLeft:0}}/>
+                <Headline type='h2' size='medium' content='TWO ACTION PACKED DAYS OF INSPIRATIONAL TALKS, NETWORKING, EXPERIENCES AND FUN' style={{textAlign:'left', paddingLeft:0}}/>
             </div>
             </div>
             </div>

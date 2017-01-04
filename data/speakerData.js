@@ -64,7 +64,7 @@ export default [
     },
     {
         name: 'Patrick Stapfer',
-        company: 'FlowType Evangelist',
+        company: 'Flowtype Evangelist',
         title: 'Flowtype and The Wonders of Statically Typed JavaScript',
         github: '//github.com/ryyppy',
         image: 'static/img/speaker/009_Patrick_Stapfer.jpg',
@@ -101,5 +101,28 @@ export default [
         github: '//github.com/okonet',
         image: 'static/img/speaker/013_andrey_okonetchnikov.jpg',
         imageTalk: 'static/img/speaker/013_sq_andrey_okonetchnikov.jpg'
+    },
+    {
+        name: 'David Sheldrick',
+        company: 'Futurice',
+        title: 'Bottling React’s secret sauce',
+        github: '//github.com/ds300',
+        image: 'static/img/speaker/014_David_Sheldrick.jpg',
+        imageTalk: 'static/img/speaker/014_sq_David_Sheldrick.jpg'
+    },
+    {
+        name: 'Jan Monschke',
+        company: 'Soundcloud',
+        title: 'How React Native Changed Prototyping at SoundCloud',
+        github: '//github.com/janmonschke',
+        image: 'static/img/speaker/016_Jan_Monschke.jpg',
+        imageTalk: 'static/img/speaker/016_sq_Jan_Monschke.jpg',
+    },
+    {
+        name: 'S. Ingólfsdóttir',
+        company: 'Soundcloud',
+        title: 'How React Native Changed Prototyping at SoundCloud',
+        image: 'static/img/speaker/015_Svanlaug_Ingolfsdottir_Svana.jpg',
+        imageTalk: 'static/img/speaker/015_sq_Svanlaug_Ingolfsdottir_Svana.jpg'
     }
 ];

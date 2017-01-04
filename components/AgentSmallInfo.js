@@ -6,13 +6,12 @@ const Content = styled.div`
     background: #212121;
     color: white;
     position:relative;
-    padding-top:60px;
+    padding-top:80px;
     padding-bottom:80px;
     text-align:center;
-
     p{
-        padding-left:80px;
-        padding-right:80px;
+        padding-left:120px;
+        padding-right:120px;
         font-size: 20px;
     }
     @media (max-width: 480px) {
@@ -41,12 +40,11 @@ export default () => {
     return (
         <Content>
             <div className='container'>
-                <Headline>Fuelled by the passion for engineering & secrets.</Headline>
+                <Headline>Fuelled by a passion for engineering</Headline>
                 <p>
-                    Agent the first alpine conference dedicated to software engineering.<br />
-                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more. <br />Learn, talk and ski and more. 
-                </p>
-                <p style={{ marginTop: 30 }}>Want to share your thoughts here?
+                    Agent is the first alpine conference dedicated to software engineering.<br />
+                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more. <br />Learn, talk and ski.<br />
+
                 </p>
             </div>
         </Content >

@@ -13,7 +13,7 @@ export default [
         class: ''
     },
     {
-        name: 'Jan Monschke',
+        name: 'Jan Monschke & Svanlaug Ingólfsdóttir',
         company: 'SoundCloud',
         title: 'How React Native Changed Prototyping at SoundCloud',
         github: '',

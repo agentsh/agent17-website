@@ -117,12 +117,12 @@ export default () => (
             <div className="block__content    block--bgimage-fixed__content">
 
                 <header className="  block__header  block--bgimage-fixed__header  ">
-                    <Headline type="h2" size="big" content="Wax your Code! Go Skiing with Engineers"/>
+                    <Headline type="h2" size="big" content="Wax on! Go skiing with the world’s greatest engineers."/>
                 </header>
 
                 <div className="  block__description  block--bgimage-fixed__description">
                     <p>
-                        This event is about Community. Book now and go skiing in Lech, a global Top 10 Skiresort
+                        This event is about community. Book now and go skiing in Lech, one of the world’s best ski resorts. 
                     </p>
                 </div>
 
@@ -158,13 +158,13 @@ export default () => (
 
                 <header className="  section__header  section--bg-brand__header  ">
                     <h2 className="  section__title  section--bg-brand__title">
-                        take your chance now
+                        Do it, book now!
                     </h2>
                 </header>
 
                 <div className="  section__description  section--bg-brand__description">
                     <p>
-                        This is where you register to learn & experience this unique event
+                        This is where you can register to attend this incredible event.
                     </p>
                 </div>
             </div>
@@ -192,7 +192,7 @@ export default () => (
                                 <ul>
                                     <li>Conference 20.01 & 21.01</li>
                                     <li>All Talks</li>
-                                    <li>Drinks & Snacks</li>
+                                    <li>Conference refreshments</li>
                                     <li>Networking Party</li>
                                 </ul>
                             </div>
@@ -230,7 +230,7 @@ export default () => (
                                     <li>Conference 20.01 & 21.01</li>
                                     <li>Ski & Hotel Lech 22.01, 23.01</li>
                                     <li>All Talks</li>
-                                    <li>Drinks & Snacks</li>
+                                    <li>Conference refreshments</li>
                                     <li>Networking Party</li>
                                     <li>Ski ticket 2 days</li>
                                     <li>2 Nights Ski-Hotel</li>
@@ -294,8 +294,8 @@ export default () => (
                     <p>
                         It's easy to contact us via <a href='mailto:questions@agent.sh'>questions@agent.sh</a><br/>Follow
                         us
-                        on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a>,
-                        <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a> and Instagram. <br/><br/>Your
+                        on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a> and
+                        <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a>. <br/><br/>Your
                         Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>, <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>, <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>, <a href='mailto:moser@agent.sh'>Linda & Joe</a>
                     </p>
                 </div>
