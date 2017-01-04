@@ -234,7 +234,6 @@ export default () => (
                                     <li>Networking Party</li>
                                     <li>Ski ticket 2 days</li>
                                     <li>2 Nights Ski-Hotel</li>
-
                                 </ul>
                             </div>
 
@@ -283,6 +282,106 @@ export default () => (
                 </article>
             </div>
         </section>
+
+        <section id="workshoptickets" className=''>
+            <div className="lc  section__content align-center  section--bg-brand__content">
+
+                <header className="  section__header  section--bg-brand__header  ">
+                    <h2 className="  section__title  section--bg-brand__title">
+                        Special Workshop Tickets
+                    </h2>
+                </header>
+
+                <div className="  section__description  section--bg-brand__description">
+                    <p>
+                        Can't get enough of the Conference? Get your workshop Tickets here!
+                    </p>
+                </div>
+            </div>
+
+            <div className='grid  grid--center'>
+                <div className='grid__item  one-third  palm--one-whole'>
+                    <article className="block block--feature">
+                        <a href="tickets" className="outerlink">
+                            <div className="block__content    block--feature__content">
+                                <div className="  block__icon  block--feature__icon">
+                                    <span className="fa fa-code"></span>
+                                </div>
+
+                                <header className="  block__header  block--feature__header  ">
+                                    <h2 className="upper h4  block__title  block--feature__title">
+                                        Ember Special
+                                    </h2>
+                                    <h3 className="h5  block__subtitle  block--feature__subtitle">
+                                        590.00 €
+                                    </h3>
+                                </header>
+
+                                <div className="  block__description  block--feature__description">
+                                    <ul>
+                                        <li>Workshop & Conference</li>
+                                        <li>Ember getting started Workshop 18.01</li>
+                                        <li>Conference 20.01 & 21.01</li>
+                                        <li>All Talks</li>
+                                        <li>Conference refreshments</li>
+                                        <li>Networking Party</li>
+                                    </ul>
+                                </div>
+
+                                <div className="align-center  block__more  block--feature__more">
+                            <span className="btn-ghost block__morelink  block--feature__morelink">
+                                buy ticket
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <div className='grid__item  one-third  palm--one-whole'>
+                    <article className="block block--feature">
+                        <a href="tickets" className="outerlink">
+                            <div className="block__content    block--feature__content">
+                                <div className="  block__icon  block--feature__icon">
+                                    <span className="fa fa-tint"></span>
+                                </div>
+
+                                <header className="  block__header  block--feature__header  ">
+                                    <h2 className="upper h4  block__title  block--feature__title">
+                                        Elixir Special
+                                    </h2>
+                                    <h3 className="h5  block__subtitle  block--feature__subtitle">
+                                        590.00 €
+                                    </h3>
+                                </header>
+
+                                <div className="  block__description  block--feature__description">
+                                    <ul>
+                                        <li>Workshop & Conference</li>
+                                        <li>Elixir Workshop 19.01</li>
+                                        <li>Conference 20.01 & 21.01</li>
+                                        <li>All Talks</li>
+                                        <li>Conference refreshments</li>
+                                        <li>Networking Party</li>
+                                    </ul>
+                                </div>
+
+                                <div className="align-center  block__more  block--feature__more">
+                            <span className="btn-ghost block__morelink  block--feature__morelink">
+                                buy ticket
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+
+            <br /><br />
+
+        </section>
+
+
         <article className="block block--bg-color">
             <div className="block__content  lc  align-center  block--bg-color__content">
 

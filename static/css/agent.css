@@ -4447,6 +4447,13 @@ button {
   .block--feature li {
     display: block; }
 
+.block--feature__icon .fa {
+  font-size: 5em;
+}
+
+.block--feature__icon .fa-code {
+  transform: translateY(-12%);
+}
 /*------------------------------------*    BLOCK  COVERIMAGE
 \*------------------------------------*/
 .block--coverimage {
