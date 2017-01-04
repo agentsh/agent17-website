@@ -192,7 +192,7 @@ export default () => (
                                 <ul>
                                     <li>Conference 20.01 & 21.01</li>
                                     <li>All Talks</li>
-                                    <li>Drinks & Snacks</li>
+                                    <li>Conference refreshments</li>
                                     <li>Networking Party</li>
                                 </ul>
                             </div>
@@ -230,7 +230,7 @@ export default () => (
                                     <li>Conference 20.01 & 21.01</li>
                                     <li>Ski & Hotel Lech 22.01, 23.01</li>
                                     <li>All Talks</li>
-                                    <li>Drinks & Snacks</li>
+                                    <li>Conference refreshments</li>
                                     <li>Networking Party</li>
                                     <li>Ski ticket 2 days</li>
                                     <li>2 Nights Ski-Hotel</li>

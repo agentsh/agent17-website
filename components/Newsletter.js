@@ -16,15 +16,13 @@ export default class extends React.Component {
                 <div className='lc  block__content  block--mailchimp__content'>
                     <header className='  block__header  block--mailchimp__header  '>
                         <h2 className='  block__title  block--mailchimp__title'>
-                            Its your turn! Become a of part in the Agent Network
+                            It’s your turn! Become a of part in the Agent Network
                         </h2>
                     </header>
 
                     <div className='  block__description  block--mailchimp__description'>
                         <p>
-                            Enter your E-Mail Adress and we will keep you posted about News, and Important Updates on
-                            the
-                            Community.
+                            Enter your E-Mail address and we will keep you posted about news, and Important updates on the Community.
                         </p>
                     </div>
 
