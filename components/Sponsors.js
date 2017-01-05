@@ -30,6 +30,12 @@ const partners = [
             link: '//getexponent.com',
             title: 'Exponent',
             image: 'static/img/005_Exponent.png'
+        },
+        {
+            link: '//2017.websummercamp.com/',
+            title: 'Web Summit',
+            image: 'static/img/websummercamp.png',
+            width: '100%'
         }
     ],
     [
@@ -49,9 +55,15 @@ const partners = [
             image: 'static/img/008_StarsMedia.png'
         },
         {
-            link: '//phuc.at',
+            link: '//www.http://thedoingcollective.com',
+            title: 'The Doing Collective',
+            image: 'static/img/DC_Logo_Portrait.jpg'
+        },
+        {
+            link: '//www.phuc.at',
             title: 'Le Webdevelopment',
-            image: 'static/img/009_LeWebdevelopment.png'
+            image: 'static/img/le.svg',
+            width: '45%'
         }
     ]
 ];
