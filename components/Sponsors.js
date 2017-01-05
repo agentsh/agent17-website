@@ -55,7 +55,7 @@ const partners = [
             image: 'static/img/008_StarsMedia.png'
         },
         {
-            link: '//www.http://thedoingcollective.com',
+            link: '//www.thedoingcollective.com',
             title: 'The Doing Collective',
             image: 'static/img/DC_Logo_Portrait.jpg'
         },
