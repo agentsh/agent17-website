@@ -122,7 +122,7 @@ export default () => (
 
                 <div className="  block__description  block--bgimage-fixed__description">
                     <p>
-                        This event is about community. Book now and go skiing in Lech, one of the world’s best ski resorts. 
+                        This event is about community. Book now and go skiing in Lech, one of the world’s best ski resorts.
                     </p>
                 </div>
 
@@ -139,15 +139,13 @@ export default () => (
                         <li>A strong line up of speakers with great talks</li>
                         <li>Diversity in the talks and in the community who attend</li>
                         <li>Grants for students</li>
-                        <li>A code of conduct</li>
+                        <li><Link href={'/coc'}>A code of conduct</Link></li>
                         <li>Accessibility for disabled: wheelchair access & on request</li>
                         <li>Alcohol-free drink options</li>
                         {/*<li>Quiet rooms and safe space</li>*/}
                         <li>Specials and outdoor action</li>
                     </ul>
 
-
-                    <Link href={'/coc'} className=''>Code of conduct</Link>
                 </div>
 
             </div>

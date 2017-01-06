@@ -83,7 +83,18 @@ const mediaPartners = [
         link: '//reactiveconf.com',
         title: 'ReactiveConf',
         image: 'static/img/012_ReactiveConf.png'
+    },
+    {
+        link: '//www.internetszene.at',
+        title: 'internetszene',
+        image: 'static/img/013_internetszene.png'
+    },
+    {
+        link: '//www.jwv.at',
+        title: 'Junge Wirtschaft Vorarlberg',
+        image: 'static/img/014_jungewirtschaft.png'
     }
+
 ];
 
 export default () => (
@@ -95,7 +106,7 @@ export default () => (
             </div>
             <h3 className="text-center partners-headline">Partners</h3>
             {
-                partners.map((partnerRow, index) => 
+                partners.map((partnerRow, index) =>
                     (
                          <div className="row row-flex" key={index}>
                              { partnerRow.map(partner => (<Sponsor className="col-sm-3 mt60" sponsor={partner} key={partner.title}/>) ) }
