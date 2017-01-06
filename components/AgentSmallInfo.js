@@ -40,11 +40,11 @@ export default () => {
     return (
         <Content>
             <div className='container'>
-                <Headline>Fuelled by a passion for engineering</Headline>
+                <Headline>Fuelled by A passion for engineering</Headline>
                 <p>
-                    Agent is the first alpine conference dedicated to software engineering.<br />
-                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more. <br />Learn, talk and ski.<br />
-
+                    Experts, industry leaders and many more will come together to showcase their work in
+                    <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more.
+                    Learn, talk and ski.
                 </p>
             </div>
         </Content >

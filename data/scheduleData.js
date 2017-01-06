@@ -37,7 +37,7 @@ export default [
     {
         name: 'Max Stoiber',
         company: 'KeystoneJS',
-        title: 'Building third-party component libaries',
+        title: 'Building third-party component libraries',
         github: '//github.com/mxstbr',
         imageTalk: 'static/img/speaker/007_sq_Max_Stoiber.jpg',
         time: '12:00 - 12:45',

@@ -41,7 +41,7 @@ const Schedule = styled.div`
 
     .heading {
         padding: 10px 30px;
-        
+
     }
 
     .bg-color {
