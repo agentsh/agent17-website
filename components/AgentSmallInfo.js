@@ -42,8 +42,7 @@ export default () => {
             <div className='container'>
                 <Headline>Fuelled by A passion for engineering</Headline>
                 <p>
-                    Experts, industry leaders and many more will come together to showcase their work in
-                    <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more.
+                    Experts, industry leaders and many more will come together to showcase their work in <a href='https://facebook.github.io/react' target='_blank'>ReactJS</a>, <a href='https://facebook.github.io/react-native/' target='_blank'>ReactNative</a> and more.
                     Learn, talk and ski.
                 </p>
             </div>

@@ -395,8 +395,7 @@ export default () => (
                     <p>
                         It's easy to contact us via <a href='mailto:questions@agent.sh'>questions@agent.sh</a><br/>Follow
                         us
-                        on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a> and
-                        <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a>. <br/><br/>Your
+                        on <a target="_blank" href="https://twitter.com/agent_dot_sh">Twitter</a> and <a href='http://www.facebook.com/agentsh' target='_blank'>Facebook</a>. <br/><br/>Your
                         Agent Team<br/><a href='mailto:tom@agent.sh'>Tom</a>, <a href='mailto:phuc@agent.sh'>Phuc</a>, <a href='mailto:guntram@agent.sh'>Guntram</a>, <a href='mailto:daniel@agent.sh'>Daniel</a>, <a href='mailto:conny@agent.sh'>Conny</a>, <a href='mailto:felicitas@agent.sh'>Felicitas</a>, <a href='mailto:moser@agent.sh'>Linda & Joe</a>
                     </p>
                 </div>
