@@ -36,6 +36,11 @@ const partners = [
             title: 'Web Summit',
             image: 'static/img/websummercamp.png',
             width: '100%'
+        },
+        {
+            link: '//www.dornbirn.at/',
+            title: 'Dornbirn',
+            image: 'static/img/dornbirn4c.jpg'
         }
     ],
     [
