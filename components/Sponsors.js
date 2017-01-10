@@ -11,7 +11,7 @@ const strategicPartners = [
 
 const partners = [
     [
-        {
+        { 
             link: '//www.raibaimrheintal.at',
             title: 'Raiba im Rheintal',
             image: 'static/img/002_RaibaImRheintal.png'
