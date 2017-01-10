@@ -40,7 +40,7 @@ const partners = [
         {
             link: '//www.dornbirn.at/',
             title: 'Dornbirn',
-            image: 'static/img/dornbirn4c.jpg'
+            image: 'static/img/DornbIrn4c.jpg'
         }
     ],
     [
