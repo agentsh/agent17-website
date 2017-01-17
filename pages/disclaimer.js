@@ -69,7 +69,7 @@ export default class extends React.Component {
                 </p>
 
                 <p>
-                    If you would like any further information regarding any of the statements above, please email Team@agent.sh  
+                    If you would like any further information regarding any of the statements above, please email <a href='mailto:Team@agent.sh'>Team@agent.sh</a>.
                 </p>
             </div>
             </div>
