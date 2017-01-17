@@ -73,7 +73,7 @@ export default [
     {
         name: 'Tereza Sokol',
         company: 'Elm Plot',
-        title: 'JavaScript fatigue? Elm is what you\'re looking for!',
+        title: 'Why you should care about Elm',
         imageTalk: 'static/img/speaker/008_sq_Tereza_Sokol.jpg',
         time: '16:30 - 17:15',
         class: ''
