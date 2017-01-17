@@ -49,7 +49,7 @@ export default [
     {
         name: 'Max Stoiber',
         company: 'KeystoneJS',
-        title: 'Building third-party component libaries',
+        title: 'Styling React Applictions',
         github: '//github.com/mxstbr',
         image: 'static/img/speaker/007_Max_Stoiber.jpg',
         imageTalk: 'static/img/speaker/007_sq_Max_Stoiber.jpg'
