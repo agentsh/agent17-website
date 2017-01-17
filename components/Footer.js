@@ -1,4 +1,8 @@
 import React from 'react';
+import Link from 'next/link';
+import styled from 'styled-components';
+
+
 
 export default () => (
     <footer className="footer">
@@ -14,7 +18,12 @@ export default () => (
                     </div>
 
                     <div className="grid__item two-thirds palm--one-whole">
-
+                        <div style={{
+                            textAlign: 'right',
+                            paddingTop: 20
+                        }}>
+                            <Link href={'/disclaimer'}>Disclaimer</Link>
+                        </div>
                     </div>
                 </div>
             </div>
