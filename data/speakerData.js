@@ -79,12 +79,12 @@ export default [
         imageTalk: 'static/img/speaker/010_sq_Balint_Erdi.jpg'
     },
     {
-        name: 'Case Sandberg',
-        company: 'BorrowLenses',
-        title: 'Creating a popular open-source react component: a case study',
-        github: '//github.com/casesandberg',
-        image: 'static/img/speaker/011_Case_Sandberg.jpg',
-        imageTalk: 'static/img/speaker/011_sq_Case_Sandberg.jpg'
+        name: 'Mats Bryntse',
+        company: 'Bryntum AB',
+        title: 'Record.Replay.Reproduce. - A new way of dealing with javascript errors in modern web applications',
+        github: '//github.com/matsbryntse',
+        image: 'static/img/speaker/011_Mats_Bryntse.jpg',
+        imageTalk: 'static/img/speaker/011_sq_Mats_Bryntse.jpg'
     },
     {
         name: 'David Khourshid',

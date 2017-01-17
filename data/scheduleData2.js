@@ -26,10 +26,10 @@ export default [
         class: 'bg-color'
     },
     {
-        name: 'Case Sandberg',
-        company: 'BorrowLenses',
-        title: 'Creating a popular open-source react component: a case study',
-        imageTalk: 'static/img/speaker/011_sq_Case_Sandberg.jpg',
+        name: 'Mats Bryntse',
+        company: 'Bryntum AB',
+        title: 'Record.Replay.Reproduce. - A new way of dealing with javascript errors in modern web applications',
+        imageTalk: 'static/img/speaker/011_sq_Mats_Bryntse.jpg',
         time: '11:15 - 12:00',
         class: ''
     },
