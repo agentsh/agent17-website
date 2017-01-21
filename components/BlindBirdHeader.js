@@ -8,7 +8,7 @@ const ImageContent = styled.div`
     clear:both;
     overflow:hidden;
     height: 500px;
-    background: url('./static/img/speaker-mobile.jpg') no-repeat center bottom;
+    background: url('./static/img/agent17.jpg') no-repeat center bottom;
     background-size: cover;
 
     @media (max-width: 900px) {
