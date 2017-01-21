@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const Content = styled.div`
-    background: #212121;
+    background: ${props => props.background};
     color: white;
     position:relative;
     padding-top:80px;
@@ -15,8 +15,13 @@ const Content = styled.div`
         font-size: 20px;
     }
     @media (max-width: 480px) {
-    padding-top:40px;
-    padding-bottom:40px;
+        padding-top:40px;
+        padding-bottom:40px;
+        p{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
     }
 `;
 
@@ -36,9 +41,12 @@ const Headline = styled.div`
 `;
 
 
-export default () => {
+export default ({background}) => {
+
+console.log(background);
+
     return (
-        <Content>
+        <Content background={background}>
             <div className='container'>
                 <Headline>Fuelled by A passion for engineering</Headline>
                 <p>
@@ -46,7 +54,7 @@ export default () => {
                     Learn, talk and ski.
                 </p>
             </div>
-        </Content >
+        </Content>
     );
 
 }
