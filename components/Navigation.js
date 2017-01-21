@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const routes = [
     { link: '/index', title: 'Home' },
-    // {link: '/speakers', title: 'Speakers'},
+    { link: '/2017', title: '2017' },
     { link: '/schedule', title: 'Schedule' },
     { link: '/venue', title: 'Venue' },
     { link: '/about', title: 'About' },
