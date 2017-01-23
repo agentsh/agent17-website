@@ -69,7 +69,7 @@ const content = (
         <Headline className='grey'>Get tickets now!</Headline>
 
         <P>
-            We don't know when, but it will be good. Angent Conf. 2018<br />
+            We don't know when, but it will be good. Agent Conf. 2018<br />
         </P>
     </TextContext>
 );
