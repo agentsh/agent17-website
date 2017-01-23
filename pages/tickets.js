@@ -17,7 +17,7 @@ export default class extends React.Component {
         return <div>
             <Meta/>
             <Navigation/>
-            <Eventbrite/>
+            <Eventbrite2018/>
             <Newsletter/>
             <Sponsors/>
             <Footer/>
