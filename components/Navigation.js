@@ -64,7 +64,7 @@ export default class extends React.Component {
                                     <img src='/static/img/logo-agent.png' className='logo' alt='Agent SH' />
 
                                     <span className='header__slogan  header--fixed__slogan' style={{ color: '#fff' }}>
-                                        Agent conference<br /><span style={{ color: '#efefef' }}>20 & 21 January</span>
+                                        Agent conference<br /><span style={{ color: '#efefef' }}>25th & 26th of January 2018</span>
                                     </span></a>
                                 </Link>
                             </div>

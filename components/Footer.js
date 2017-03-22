@@ -13,7 +13,7 @@ export default () => (
                         <img src="static/img/logo-agent.png" className="logo" alt="Agent SH"/>
 
                         <span className="footer__slogan footer--__slogan color-2">
-                            Agent conference<br/><span>20 & 21 January</span>
+                            Agent conference<br/><span>25th & 26th of January 2018</span>
                         </span>
                     </div>
 
@@ -39,7 +39,7 @@ export default () => (
 
                 <div className="grid__item  one-third  iphoneh--one-whole  palm--one-whole">
                     <div className="footer__content-right h8">
-                        <p className="copyright">Copyright 2016, 2017 - Agent™ and Agent Conference™
+                        <p className="copyright">&copy; 2016, 2017 - Agent™ and Agent Conference™
                         </p>
                     </div>
                 </div>

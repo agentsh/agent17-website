@@ -63,13 +63,19 @@ const Headline2 = styled.div`
     padding-top: 20px;
 `;
 
+const Correction = styled.span`
+    &.line-through {
+        text-decoration: line-through;
+    }
+`;
+
 const content = (
     <TextContext>
         <Headline2>AgentConf 2018</Headline2>
         <Headline className='grey'>Get tickets now!</Headline>
 
         <P>
-            We don't know when, but it will be good. Agent Conf. 2018<br />
+            <Correction className='line-through'>We don't know when, but</Correction> <b>25th & 26th January</b>. It will be good. Agent Conf. 2018<br />
         </P>
     </TextContext>
 );
