@@ -4,6 +4,7 @@ import Meta from '../components/Meta';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 import BlindBirdHeader from '../components/BlindBirdHeader';
+import VideoHeader from '../components/VideoHeaderReview';
 import AgentSmallInfo from '../components/AgentSmallInfo';
 import Headline from '../components/Headline';
 import Eventbrite2018 from '../components/Eventbrite2018'
@@ -16,7 +17,10 @@ export default () => (
         <Navigation/>
         <Meta/>
         <BlindBirdHeader/>
+
         <Eventbrite2018/>
+        <VideoHeader/>
+
         <article className="block block--bg-color">
             <div className="block__content  lc  align-center  block--bg-color__content">
 
