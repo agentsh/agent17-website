@@ -32,7 +32,7 @@ const content = (
     <TextContext>
         <div className='container'>
             <div className='iframeContainer'>
-                <iframe src='https://www.youtube.com/embed/UzdE2hcXF90?autoplay=0&controls=1&disablekb=1&modestbranding=1&rel=0&showinfo=1&iv_load_policy=3'></iframe>
+                <iframe src='https://www.youtube.com/embed/UzdE2hcXF90'></iframe>
             </div>
         </div>
     </TextContext>
